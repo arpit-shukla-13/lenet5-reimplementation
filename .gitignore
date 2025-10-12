@@ -1,0 +1,6 @@
+# Ignore the Python virtual environment
+lenet_env/
+
+# Ignore Jupyter and Python cache files
+.ipynb_checkpoints/
+__pycache__/
