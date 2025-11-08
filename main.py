@@ -9,12 +9,12 @@ print(f"Training data shape: {x_train.shape}") # (60000, 28, 28)
 print(f"Training labels shape: {y_train.shape}") # (60000,)
 print(f"Test data shape: {x_test.shape}")       # (10000, 28, 28)
 
-# Chaliye ek sample image dekhte hain
+
 plt.imshow(x_train[0], cmap='gray')
 plt.title(f"Label: {y_train[0]}")
 plt.show()
 
-# 2. Data ko Normalize karna (0-255 se 0-1 ke range mein lana)
+
 x_train = x_train.astype('float32') / 255.0
 x_test = x_test.astype('float32') / 255.0
 
