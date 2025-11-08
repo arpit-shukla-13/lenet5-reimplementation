@@ -2,7 +2,7 @@ import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
 
-# 1. MNIST Dataset ko Load karna
+# 1. Loading MNIST Dataset
 (x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data()
 
 print(f"Training data shape: {x_train.shape}") # (60000, 28, 28)
